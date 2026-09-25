@@ -1,0 +1,5 @@
+TEST - metoda GET returneaza status 200 si contine "title"
+
+1. Trimite request-ul GET catre https://jsonplaceholder.typicode.com/todos/1
+2. Verificam ca status code este 200
+3. Verificam ca raspunsul contine "title"
