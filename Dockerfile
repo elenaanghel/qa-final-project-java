@@ -6,7 +6,6 @@ COPY pom.xml .
 
 COPY src ./src
 COPY config ./config
-COPY data ./data
 
 RUN mvn test
 
