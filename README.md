@@ -1,3 +1,5 @@
+[![CI/CD](https://github.com/elenaanghel/qa-final-project-java/actions/workflows/ci.yml/badge.svg)](https://github.com/elenaanghel/qa-final-project-java/actions/workflows/ci.yml)
+
 Proiectul contine:
  - structura Maven 
  - fisier YAML
