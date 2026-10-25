@@ -21,6 +21,7 @@ public class UsernameValidator {
             if ((user.length() < 6 || user.length() > 12)) {
                 System.out.println("Eroare: Username-ul trebuie sa aiba intre 6 si 12 caractere.");
                 lungimeInvalida = true;
+                continue;
             }
 
             for (int i = 0; i < user.length(); i++) {
@@ -28,7 +29,7 @@ public class UsernameValidator {
                 if (litera == ' ') {
                     System.out.println("Eroare: Username-ul nu poate sa contina spatii.");
                     areSpatii = true;
-                    break;
+                    continue;
                 }
 
                 for (char c : cifre) {

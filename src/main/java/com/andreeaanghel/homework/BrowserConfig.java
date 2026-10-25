@@ -19,7 +19,7 @@ public class BrowserConfig {
 
     // Constructor cu 1 parametru
     public BrowserConfig(BrowserType browser) {
-        this(browser, "latest", false);
+        this(browser, "latest");
     }
 
     // Metoda statica Factory
